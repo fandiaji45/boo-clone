@@ -1,40 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# BOO Clone — Take-Home Assignment
 
-## Getting Started
+This project is a recreation of the BOO question page using Next.js (Pages Router) and TailwindCSS, based on the take-home assignment instructions.
 
-First, run the development server:
+# Reference Page:
+https://boo.world/u/questions/dwsQOX/what-would-you-choose-a-relationship-full-of
 
-```bash
+# Tech Stack
+Next.js (Pages Router)
+React
+TailwindCSS
+Mock API Routes
+Local mock data (no backend)
+
+
+# Getting Started
+1. Install dependencies
+npm install
+
+2. Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+# Then open your browser:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+👉 http://localhost:3000/questions/dwsQOX
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+# Time Spent
+Item	Waktu
+Start	06:30 WIB
+End	10:30 WIB
+Total Duration	4 hours
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+(Di bawah limit 4 jam sesuai instruksi.)
 
-## Learn More
+# What I Completed
+Fully setup project using Next.js Pages Router.
+Implemented layout structure (Navbar, Sidebar, Main content).
+Styled everything using TailwindCSS only.
 
-To learn more about Next.js, take a look at the following resources:
+# Recreated:
+Question header section
+Card layout & spacing
+Typography & colors
+Options UI
+Added mocked API endpoints under /pages/api/...
+Built interactive UI components using React state.
+Ensured responsiveness for mobile & desktop.
+Sidebar collapsible system (like BOO).
+Scroll behavior improvements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+# What I Skipped (Due to Time Limit)
+Animations & micro-interactions persis seperti BOO.
+Transitions untuk pilihan (vote animation).
+Full user profile popover.
+Dynamic routing based on question IDs.
+SEO tags & social meta.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# What I Would Improve With More Time
+Add more realistic mock API (users, questions, votes).
+Add animations using Framer Motion.
+Implement global state (Zustand/Context).
+Improve mobile UX & transitions.
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# Project Structure
+/pages
+  /api
+    question.js    # mock API
+  index.js
+  question/[id].js
+/components
+  Navbar.js
+  Sidebar.js
+  Layout.js
+  QuestionCard.js
+/styles
+  globals.css
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+# github : https://github.com/fandiaji45/boo-clone
